@@ -10,8 +10,8 @@
 ## 環境構築手順
 1. リポジトリをクローン
 ```bash
-git clone <リポジトリのURL>
-cd <リポジトリ名>
+git clone git@github.com:fo-ji/my-first-golang-app.git
+cd my-first-golang-app
 ```
 
 2. Dockerイメージをビルド
