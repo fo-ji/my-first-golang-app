@@ -1,2 +1,6 @@
+# database
 *.db
 *.sqlite3
+
+# log
+webapp.log
