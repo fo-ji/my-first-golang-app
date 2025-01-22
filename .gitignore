@@ -1,6 +1,7 @@
 # database
 *.db
 *.sqlite3
+*.sql
 
 # log
 webapp.log
