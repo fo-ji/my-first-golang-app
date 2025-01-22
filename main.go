@@ -25,11 +25,14 @@ func main() {
 
 	u, _ := models.GetUser(1)
 
-	fmt.Println("before: ", u)
+	// fmt.Println("before: ", u)
 
-	u.Name = "Test2"
-	u.Email = "test2@example.com"
-	u.UpdateUser()
-	fmt.Println("after: ", u)
+	// u.Name = "Test2"
+	// u.Email = "test2@example.com"
+	// u.UpdateUser()
+	// fmt.Println("after: ", u)
 
+	u.DeleteUser()
+	u, _ = models.GetUser(1)
+	fmt.Println(u)
 }
