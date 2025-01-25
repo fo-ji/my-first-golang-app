@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"my-first-golang-app/app/models"
 )
 
@@ -23,7 +22,7 @@ func main() {
 
 	// u.CreateUser()
 
-	u, _ := models.GetUser(1)
+	// u, _ := models.GetUser(1)
 
 	// fmt.Println("before: ", u)
 
@@ -32,7 +31,10 @@ func main() {
 	// u.UpdateUser()
 	// fmt.Println("after: ", u)
 
-	u.DeleteUser()
-	u, _ = models.GetUser(1)
-	fmt.Println(u)
+	// u.DeleteUser()
+	// u, _ = models.GetUser(1)
+	// fmt.Println(u)
+
+	user, _ := models.GetUser(2)
+	user.CreateTodo("first todo")
 }
